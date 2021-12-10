@@ -27,7 +27,7 @@ class HomeWork1 {
 	} 
 	 static void compareNumbers() {
 		int a = 5;
-	    int b = 25;
+	        int b = 25;
 		System.out.println ( a >= b ?  "a >= b" : "a < b" );
 	}
 		
