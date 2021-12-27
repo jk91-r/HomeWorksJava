@@ -14,8 +14,8 @@ class HomeWork6{
             System.out.println(a.run(100));
             System.out.println(a.run(230));
             System.out.println(a.run(510));
-            System.out.println( a.swim(5));
-            System.out.println( a.swim(25));
+            System.out.println(a.swim(5));
+            System.out.println(a.swim(25));
         }
     }
 }
