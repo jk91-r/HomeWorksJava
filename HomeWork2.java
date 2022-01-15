@@ -15,38 +15,26 @@ class HomeWork2 {
 
         System.out.println(numberNegativeIsTrue(-5));
         System.out.println(numberNegativeIsTrue(0));
-        System.out.println(numberNegativeIsTrue(5));
+        System.out.println(numberNegativeIsTrue(15));
 
-        System.out.println(printWordTimes( "Java ", 15));
+        printWordTimes( "Java", 15);
     }
 
     static boolean in10to20(int a, int b) {
-        if (a+b >=10 && a+b <=20) {
-            return true;
-        }
-        return false;
+        return  a+b >=10 && a+b <=20;
     }
 
     static void printPositiveOrNegative(int a) {
-        if (a >=0) {
-            System.out.println ("Number is positive");
-        } else {
-            System.out.println ("Number is negative");
-        }
+        System.out.println ("Number is " + (a >=0 ? "positive": "negative" ));
     }
 
     static boolean numberNegativeIsTrue(int b) {
-        if (b < 0) {
-            return true;
-        }
-        return false;
+        return b < 0;
     }
 
-    static String printWordTimes(String word, int times) {
-        String result = " ";
+    static void printWordTimes(String word, int times) {
         for (int i = 0 ; i < times; i++) {
-            result = result + word;
+            System.out.println (word);
         }
-        return result;
     }
 }
